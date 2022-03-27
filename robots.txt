@@ -1,1 +1,1 @@
-Sitemap: https://pksx01.github.io/pks.ai/sitemap.xml
+Sitemap: https://pksx01.github.io/AI_Blogs/sitemap.xml
