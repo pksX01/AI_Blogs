@@ -1,10 +1,6 @@
 ---
 title : "Bear Classification: From Data Collection to GUI for Model Inference"
-
-description : "In this notebook, we are going to understand the concepts and codes discussed in Lesson 2 of fast.ai book and it's Deep Learning Part-1 2020 course. We will be classifying bear into 3 categories: grizzly, black and teddy bears.
-
-Credit: fast.ai team, Jeremy Howard"
-
+description : "In this notebook, we are going to understand the concepts and codes discussed in Lesson 2 of fast.ai book and it's Deep Learning Part-1 2020 course. We will be classifying bear into 3 categories: grizzly, black and teddy bears."
 toc: true
 comments: true
 ---
