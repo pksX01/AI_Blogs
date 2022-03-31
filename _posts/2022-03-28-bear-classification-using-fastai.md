@@ -4,6 +4,7 @@ description: "In this notebook, we are going to understand the concepts and code
 title: "Bear Classification: From Data Collection to GUI for Model Inference"
 toc: true
 comments: true
+author: 'Pavan Kumar Singh'
 nb_path: _notebooks/2022-03-28-bear-classification-using-fastai.ipynb
 layout: notebook
 ---
