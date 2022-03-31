@@ -7,6 +7,7 @@
 <title>Bear Classification: From Data Collection to GUI for Model Inference | Pavan Kumar’s AI Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Bear Classification: From Data Collection to GUI for Model Inference" />
+<meta name="author" content="Pavan Kumar Singh" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In this notebook, we are going to understand the concepts and codes discussed in Lesson 2 of fast.ai book and it’s Deep Learning Part-1 2020 course. We will be classifying bear into 3 categories: grizzly, black and teddy bears." />
 <meta property="og:description" content="In this notebook, we are going to understand the concepts and codes discussed in Lesson 2 of fast.ai book and it’s Deep Learning Part-1 2020 course. We will be classifying bear into 3 categories: grizzly, black and teddy bears." />
@@ -18,7 +19,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bear Classification: From Data Collection to GUI for Model Inference" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-28T00:00:00-05:00","datePublished":"2022-03-28T00:00:00-05:00","description":"In this notebook, we are going to understand the concepts and codes discussed in Lesson 2 of fast.ai book and it’s Deep Learning Part-1 2020 course. We will be classifying bear into 3 categories: grizzly, black and teddy bears.","headline":"Bear Classification: From Data Collection to GUI for Model Inference","mainEntityOfPage":{"@type":"WebPage","@id":"https://pksx01.github.io/AI_Blogs/2022/03/28/bear-classification-using-fastai.html"},"url":"https://pksx01.github.io/AI_Blogs/2022/03/28/bear-classification-using-fastai.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Pavan Kumar Singh"},"dateModified":"2022-03-28T00:00:00-05:00","datePublished":"2022-03-28T00:00:00-05:00","description":"In this notebook, we are going to understand the concepts and codes discussed in Lesson 2 of fast.ai book and it’s Deep Learning Part-1 2020 course. We will be classifying bear into 3 categories: grizzly, black and teddy bears.","headline":"Bear Classification: From Data Collection to GUI for Model Inference","mainEntityOfPage":{"@type":"WebPage","@id":"https://pksx01.github.io/AI_Blogs/2022/03/28/bear-classification-using-fastai.html"},"url":"https://pksx01.github.io/AI_Blogs/2022/03/28/bear-classification-using-fastai.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/AI_Blogs/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://pksx01.github.io/AI_Blogs/feed.xml" title="Pavan Kumar's AI Blog" /><link rel="shortcut icon" type="image/x-icon" href="/AI_Blogs/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -75,7 +76,9 @@ window.onload = wrap_img;
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">Bear Classification: From Data Collection to GUI for Model Inference</h1><p class="page-description">In this notebook, we are going to understand the concepts and codes discussed in Lesson 2 of fast.ai book and it's Deep Learning Part-1 2020 course. We will be classifying bear into 3 categories: grizzly, black and teddy bears.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-03-28T00:00:00-05:00" itemprop="datePublished">
         Mar 28, 2022
-      </time>
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Pavan Kumar Singh</span></span>
        • <span class="read-time" title="Estimated read time">
     
     
