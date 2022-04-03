@@ -402,7 +402,7 @@ teddy
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Since images should be downloaded in their respective folders, let's verify the folders and images if they are downladed.</p>
+<p>Since images should be downloaded in their respective folders, let's verify the folders and images if they are downloaded.</p>
 
 </div>
 </div>
@@ -524,7 +524,7 @@ teddy
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As we can see above, there are 3 failed/corrupt images hence unlinking them from our dataset.</p>
+<p>In case of failed/corrupt images we can unlink them from our dataset.</p>
 
 </div>
 </div>
@@ -1182,7 +1182,7 @@ Here, we will squish the images in the 128x128 pixels image.</li>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Confusion matrix is used to see how many inputs are wrongly labeled. Diagonal of the matrix shows the images that are classified correctly. Other cells represent the wrongly classified images. In this case, all images are classified correctly.
+<li>Confusion matrix is used to see how many inputs are wrongly labeled. Diagonal of the matrix shows the images that are classified correctly. Other cells represent the wrongly classified images. In this case, one black bear is wronlgy classified as grizzly bear, other images are classified correctly. 
 <strong>Note: Confusion matrix is calculated using validation set.</strong></li>
 </ul>
 
